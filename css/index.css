@@ -1,0 +1,75 @@
+.bloque {
+    position: relative;
+}
+
+.foto-bloque {
+
+    height: 600px;
+    background-image: url("../images/hero.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.degradacion-bloque {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to right, black 50%, 70%, white 80%);
+    position: absolute;
+    top: 0;
+    opacity: 80%;
+}  
+
+.degradacion-bloque .contenido {
+    width: 60%;
+    margin: 0 10%;
+}
+
+.degradacion-bloque .contenido .titulo {
+    color: #C9A84C;
+    padding-top: 120px;
+
+}
+
+.degradacion-bloque .contenido .texto-blanco {
+    color: white;
+    line-height: 81px;
+    font-size: 70px;
+}
+
+.degradacion-bloque .contenido .texto-dorado {
+    color: #C9A84C;
+    font-style: italic;
+    font-size: 70px;
+    line-height: 61px;
+
+}
+
+.degradacion-bloque .contenido .parrafo {
+    width: 70%;
+    padding-top: 30px;
+}
+.degradacion-bloque .contenido .botones{
+    padding-top: 30px;
+    display: flex;
+    gap: 20px;
+} 
+.degradacion-bloque .contenido .boton-dorado{
+    height: 30px;
+    color: black;
+    background-color: #C9A84C;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 15px;
+} 
+.degradacion-bloque .contenido .boton-trasparente{
+    height: 30px;
+    color: white;
+    background-color: black;
+    
+    border: 0.5px white solid;
+    border-radius: 2px;
+    padding: 5px 15px;
+} 
+

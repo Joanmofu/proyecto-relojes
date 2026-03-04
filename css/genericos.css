@@ -1,0 +1,55 @@
+/* ===================================================
+   TEMPUS — Relojes de Excepción
+   Paleta: Negro profundo · Marfil cálido · Dorado antiguo
+   =================================================== */
+
+/* ── Variables ── */
+:root {
+  --color-bg:          #0E0E0E;
+  --color-surface:     #161616;
+  --color-surface-2:   #1C1C1C;
+  --color-border:      #2A2A2A;
+  --color-gold:        #C9A84C;
+  --color-gold-light:  #E2C47A;
+  --color-gold-dim:    rgba(201, 168, 76, 0.15);
+  --color-ivory:       #F5F0E8;
+  --color-text:        #C8C0B4;
+  --color-muted:       #7A7060;
+
+  --font-main:         'Roboto', sans-serif;
+  --font-condensed:    'Roboto Condensed', sans-serif;
+
+  --header-height:     80px;
+  --transition-fast:   180ms ease;
+  --transition-med:    300ms ease;
+  --transition-slow:   500ms ease;
+
+  --max-width:         1280px;
+  --section-pad:       80px;
+}
+
+/* ── Reset ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  font-weight: 300;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
